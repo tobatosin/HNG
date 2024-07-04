@@ -1,0 +1,169 @@
+
+/* NAV  */
+
+body{
+   overflow-x: hidden;
+   margin: 0;
+}
+.section1{
+    background-image: url(Images/bj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+/* NAV  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.a{
+    text-decoration: none;
+    color: rgb(245, 245, 251);
+}
+.a:hover{
+    color: red;
+}
+.name{
+    color: red;
+    font-weight: bold;
+    font-size: 18PX;
+}
+.name:hover{
+    font-size: 30px;
+}
+.text1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -4px;
+}
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* BODY  */
+/* SECTION 1  */
+.sec1{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.text2{
+    font-size:60px;
+    font-weight: bold;
+}
+.text3{
+    color: rgb(255, 0, 0);
+}
+.text4{
+    font-size:30px;
+    font-weight: bold;
+}
+.text5{
+    color: white;
+    line-height: 30px;
+}
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+    .sec1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px; 
+        gap: 5px; 
+    }
+
+    .text2 {
+        font-size: 40px; 
+    }
+
+    .text4 {
+        font-size: 24px; 
+    }
+}
+
+/* SECTION 2  */
+.sec2{
+    /* margin: 70px 30px; */
+    padding: 0px 30px;
+}
+.text7{
+    font-size: 50px;
+    font-weight: bold;
+}
+.text8{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+    .text7 {
+        font-size: 20px;
+    }
+
+    .text8 {
+        font-size: 12px; 
+        line-height: 18px; 
+    }
+}
+
+/* FOOTER  */
+
+.footer{
+    background-image: url(Images/bj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 20vh;
+}
+.text9{
+    font-size: 12px;
+    text-align: center;
+}
+.text10{
+    font-size: 15px;
+    text-align: center;
+}
+.dt{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 5px;
+}
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+    .footer {
+        height: auto; 
+        padding: 10px; 
+    }
+
+    .text9, .text10 {
+        font-size: 10px; 
+    }
+
+    .dt {
+        flex-direction: column;
+        align-items: center;
+    }
+}
